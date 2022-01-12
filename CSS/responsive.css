@@ -1,0 +1,62 @@
+@media only screen and (max-width:668px) {
+    body {
+        background-color: #fff;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .players,
+    .blogs {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-content: stretch;
+    }
+
+    .blog-article .thumbails .thumblias-img {
+        width: 300px;
+        height: 181px;
+    }
+
+    .blog-article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+
+    }
+
+    .courses-blog {
+        display: flex;
+        padding-left: 20px;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .courses-item {
+        box-shadow: 5px 5px 15px 0px #f1eaea;
+        filter: drop-shadow(0px 5.34229px 13.3557px rgba(211, 207, 207, 0.05));
+        border-radius: 13.36px;
+        margin-bottom: 20px;
+    }
+
+    .courses-item img {
+        width: 270px;
+        height: 127px;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
+
+    .players,
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-content: stretch;
+    }
+}
