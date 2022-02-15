@@ -59,4 +59,12 @@
         grid-template-columns: repeat(2, 1fr);
         align-content: stretch;
     }
+
+    .blog-article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+
+    }
 }
